@@ -4,7 +4,7 @@
 #
 Name     : mvn-bouncycastle
 Version  : 1rv51
-Release  : 9
+Release  : 10
 URL      : https://github.com/bcgit/bc-java/archive/r1rv51.tar.gz
 Source0  : https://github.com/bcgit/bc-java/archive/r1rv51.tar.gz
 Source1  : https://repo.gradle.org/gradle/libs-releases/org/bouncycastle/bcpg-jdk15on/1.61/bcpg-jdk15on-1.61.jar
@@ -21,24 +21,26 @@ Source11  : https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.59/
 Source12  : https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.59/bcpkix-jdk15on-1.59.pom
 Source13  : https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.60/bcpkix-jdk15on-1.60.jar
 Source14  : https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.60/bcpkix-jdk15on-1.60.pom
-Source15  : https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15/1.40/bcprov-jdk15-1.40.jar
-Source16  : https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15/1.40/bcprov-jdk15-1.40.pom
-Source17  : https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.50/bcprov-jdk15on-1.50.jar
-Source18  : https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.50/bcprov-jdk15on-1.50.pom
-Source19  : https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.51/bcprov-jdk15on-1.51.jar
-Source20  : https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.51/bcprov-jdk15on-1.51.pom
-Source21  : https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.52/bcprov-jdk15on-1.52.jar
-Source22  : https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.52/bcprov-jdk15on-1.52.pom
-Source23  : https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.55/bcprov-jdk15on-1.55.jar
-Source24  : https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.55/bcprov-jdk15on-1.55.pom
-Source25  : https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.57/bcprov-jdk15on-1.57.jar
-Source26  : https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.57/bcprov-jdk15on-1.57.pom
-Source27  : https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.59/bcprov-jdk15on-1.59.jar
-Source28  : https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.59/bcprov-jdk15on-1.59.pom
-Source29  : https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.60/bcprov-jdk15on-1.60.jar
-Source30  : https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.60/bcprov-jdk15on-1.60.pom
-Source31  : https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk16/1.46/bcprov-jdk16-1.46.jar
-Source32  : https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk16/1.46/bcprov-jdk16-1.46.pom
+Source15  : https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.61/bcpkix-jdk15on-1.61.jar
+Source16  : https://repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.61/bcpkix-jdk15on-1.61.pom
+Source17  : https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15/1.40/bcprov-jdk15-1.40.jar
+Source18  : https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15/1.40/bcprov-jdk15-1.40.pom
+Source19  : https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.50/bcprov-jdk15on-1.50.jar
+Source20  : https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.50/bcprov-jdk15on-1.50.pom
+Source21  : https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.51/bcprov-jdk15on-1.51.jar
+Source22  : https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.51/bcprov-jdk15on-1.51.pom
+Source23  : https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.52/bcprov-jdk15on-1.52.jar
+Source24  : https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.52/bcprov-jdk15on-1.52.pom
+Source25  : https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.55/bcprov-jdk15on-1.55.jar
+Source26  : https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.55/bcprov-jdk15on-1.55.pom
+Source27  : https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.57/bcprov-jdk15on-1.57.jar
+Source28  : https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.57/bcprov-jdk15on-1.57.pom
+Source29  : https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.59/bcprov-jdk15on-1.59.jar
+Source30  : https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.59/bcprov-jdk15on-1.59.pom
+Source31  : https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.60/bcprov-jdk15on-1.60.jar
+Source32  : https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.60/bcprov-jdk15on-1.60.pom
+Source33  : https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk16/1.46/bcprov-jdk16-1.46.jar
+Source34  : https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk16/1.46/bcprov-jdk16-1.46.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : MIT
@@ -117,59 +119,65 @@ cp %{SOURCE13} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcpki
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.60
 cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.60/bcpkix-jdk15on-1.60.pom
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15/1.40
-cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15/1.40/bcprov-jdk15-1.40.jar
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.61
+cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.61/bcpkix-jdk15on-1.61.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.61
+cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.61/bcpkix-jdk15on-1.61.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15/1.40
-cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15/1.40/bcprov-jdk15-1.40.pom
+cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15/1.40/bcprov-jdk15-1.40.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15/1.40
+cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15/1.40/bcprov-jdk15-1.40.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.50
-cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.50/bcprov-jdk15on-1.50.jar
+cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.50/bcprov-jdk15on-1.50.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.50
-cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.50/bcprov-jdk15on-1.50.pom
+cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.50/bcprov-jdk15on-1.50.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.51
-cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.51/bcprov-jdk15on-1.51.jar
+cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.51/bcprov-jdk15on-1.51.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.51
-cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.51/bcprov-jdk15on-1.51.pom
+cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.51/bcprov-jdk15on-1.51.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.52
-cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.52/bcprov-jdk15on-1.52.jar
+cp %{SOURCE23} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.52/bcprov-jdk15on-1.52.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.52
-cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.52/bcprov-jdk15on-1.52.pom
+cp %{SOURCE24} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.52/bcprov-jdk15on-1.52.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.55
-cp %{SOURCE23} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.55/bcprov-jdk15on-1.55.jar
+cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.55/bcprov-jdk15on-1.55.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.55
-cp %{SOURCE24} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.55/bcprov-jdk15on-1.55.pom
+cp %{SOURCE26} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.55/bcprov-jdk15on-1.55.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.57
-cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.57/bcprov-jdk15on-1.57.jar
+cp %{SOURCE27} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.57/bcprov-jdk15on-1.57.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.57
-cp %{SOURCE26} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.57/bcprov-jdk15on-1.57.pom
+cp %{SOURCE28} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.57/bcprov-jdk15on-1.57.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.59
-cp %{SOURCE27} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.59/bcprov-jdk15on-1.59.jar
+cp %{SOURCE29} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.59/bcprov-jdk15on-1.59.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.59
-cp %{SOURCE28} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.59/bcprov-jdk15on-1.59.pom
+cp %{SOURCE30} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.59/bcprov-jdk15on-1.59.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.60
-cp %{SOURCE29} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.60/bcprov-jdk15on-1.60.jar
+cp %{SOURCE31} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.60/bcprov-jdk15on-1.60.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.60
-cp %{SOURCE30} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.60/bcprov-jdk15on-1.60.pom
+cp %{SOURCE32} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.60/bcprov-jdk15on-1.60.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk16/1.46
-cp %{SOURCE31} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk16/1.46/bcprov-jdk16-1.46.jar
+cp %{SOURCE33} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk16/1.46/bcprov-jdk16-1.46.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk16/1.46
-cp %{SOURCE32} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk16/1.46/bcprov-jdk16-1.46.pom
+cp %{SOURCE34} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk16/1.46/bcprov-jdk16-1.46.pom
 
 
 %files
@@ -189,6 +197,8 @@ cp %{SOURCE32} %{buildroot}/usr/share/java/.m2/repository/org/bouncycastle/bcpro
 /usr/share/java/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.59/bcpkix-jdk15on-1.59.pom
 /usr/share/java/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.60/bcpkix-jdk15on-1.60.jar
 /usr/share/java/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.60/bcpkix-jdk15on-1.60.pom
+/usr/share/java/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.61/bcpkix-jdk15on-1.61.jar
+/usr/share/java/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.61/bcpkix-jdk15on-1.61.pom
 /usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15/1.40/bcprov-jdk15-1.40.jar
 /usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15/1.40/bcprov-jdk15-1.40.pom
 /usr/share/java/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.50/bcprov-jdk15on-1.50.jar
